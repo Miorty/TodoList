@@ -1,0 +1,57 @@
+INFO:root:Request: GET http://testserver/api/todo/1 - 0.025 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/1 "HTTP/1.1 200 OK"
+INFO:root:Request: GET http://testserver/api/todo - 0.001 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: GET http://testserver/api/todo/ - 0.029 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/ "HTTP/1.1 200 OK"
+INFO:root:Request: POST http://testserver/api/todo - 0.000 sec
+
+INFO:httpx:HTTP Request: POST http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: POST http://testserver/api/todo/ - 0.003 sec
+
+INFO:httpx:HTTP Request: POST http://testserver/api/todo/ "HTTP/1.1 422 Unprocessable Entity"
+INFO:root:Request: GET http://testserver/api/todo/100 - 0.019 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/100 "HTTP/1.1 404 Not Found"
+INFO:root:Request: GET http://testserver/api/todo - 0.001 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: GET http://testserver/api/todo/ - 0.018 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/ "HTTP/1.1 200 OK"
+INFO:root:Request: GET http://testserver/api/todo - 0.000 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: GET http://testserver/api/todo/ - 0.018 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/ "HTTP/1.1 200 OK"
+INFO:root:Request: GET http://testserver/api/todo - 0.000 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: GET http://testserver/api/todo/ - 0.014 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/ "HTTP/1.1 200 OK"
+INFO:root:Request: GET http://testserver/api/todo - 0.000 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: GET http://testserver/api/todo/ - 0.022 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/ "HTTP/1.1 200 OK"
+INFO:root:Request: DELETE http://testserver/api/todo/1 - 0.025 sec
+
+INFO:httpx:HTTP Request: DELETE http://testserver/api/todo/1 "HTTP/1.1 200 OK"
+INFO:root:Request: DELETE http://testserver/api/todo/2 - 0.005 sec
+
+INFO:httpx:HTTP Request: DELETE http://testserver/api/todo/2 "HTTP/1.1 404 Not Found"
+INFO:root:Request: PUT http://testserver/'api/todo/1 - 0.001 sec
+
+INFO:httpx:HTTP Request: PUT http://testserver/'api/todo/1 "HTTP/1.1 404 Not Found"
+INFO:root:Request: GET http://testserver/api/todo - 0.000 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo "HTTP/1.1 307 Temporary Redirect"
+INFO:root:Request: GET http://testserver/api/todo/ - 0.018 sec
+
+INFO:httpx:HTTP Request: GET http://testserver/api/todo/ "HTTP/1.1 200 OK"
