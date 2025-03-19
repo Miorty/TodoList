@@ -6,6 +6,8 @@ from app.schemas import TodoCreate, TodoUpdate
 
 from datetime import datetime
 
+# class TodoService():
+#     def __init__ (self):
 
 # Получение всех задач
 async def get_all_tasks(db: AsyncSession):
